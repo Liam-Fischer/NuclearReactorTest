@@ -35,12 +35,14 @@ namespace NuclearReactorTest
             reactorstatelabel2.BackColor = Color.Red;
             sitlabel.BackColor = Color.White;
             sitlabel.Text = "Reactor Failing";
+
             Refresh();
             Thread.Sleep(900);
             reactorstatelabel1.BackColor = Color.White;
             reactorstatelabel2.BackColor = Color.White;
             sitlabel.BackColor = Color.Red;
             sitlabel.ForeColor = Color.White;
+
             Refresh();
             Thread.Sleep(900);
             reactorstatelabel1.BackColor = Color.Red;
@@ -48,27 +50,29 @@ namespace NuclearReactorTest
             sitlabel.BackColor = Color.White;
             sitlabel.ForeColor = Color.Black;
             sitlabel.Text = "Shutdown Imminent";
+
             Refresh();
             Thread.Sleep(900);
             reactorstatelabel1.BackColor = Color.White;
             reactorstatelabel2.BackColor = Color.White;
             sitlabel.BackColor = Color.Red;
             sitlabel.ForeColor = Color.White;
-            sitlabel.Text = "Reactor Failing";
+            
             Refresh();
             Thread.Sleep(900);
             reactorstatelabel1.BackColor = Color.Red;
             reactorstatelabel2.BackColor = Color.Red;
             sitlabel.BackColor = Color.White;
             sitlabel.ForeColor = Color.Black;
-            sitlabel.Text = "Shutdown Imminent";
+            sitlabel.Text = "Reactor Failing";
+
             Refresh();
             Thread.Sleep(900);
             reactorstatelabel1.BackColor = Color.White;
             reactorstatelabel2.BackColor = Color.White;
             sitlabel.BackColor = Color.Red;
             sitlabel.ForeColor = Color.White;
-            sitlabel.Text = "Reactor Failing";
+            
         }
 
         private void sitlabel_TextChanged(object sender, EventArgs e)
